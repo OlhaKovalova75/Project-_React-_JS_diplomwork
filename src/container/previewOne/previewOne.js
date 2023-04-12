@@ -5,7 +5,7 @@ import "./previewOne.css";
 import { BsArrowLeft } from "react-icons/bs";
 import { NavLink, useNavigate } from "react-router-dom";
 
-const PreviewOne = () => {
+const PreviewOne = ({ productOne }) => {
   const navigate = useNavigate();
 
   const navigateToBack = () => {

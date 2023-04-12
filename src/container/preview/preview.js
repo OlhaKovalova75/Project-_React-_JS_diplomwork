@@ -31,6 +31,8 @@ const Preview = ({
           ))}
 
           <Card />
+          <Card />
+          <Card />
 
           <Outlet />
         </div>

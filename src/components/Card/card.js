@@ -33,26 +33,4 @@ const Card = ({ name, setName, product, price, quantity, productOne }) => {
   );
 };
 
-// const ProductCard = ({product}) => {
-
-//   return (
-//       <Card
-//           image={product.media.source}
-//           header={product.name}
-//           meta={product.price.formatted_with_symbol}
-//           description={product.description.replace(/(<([^>]+)>)/ig,"")}
-
-// const ProductCard = ({ match }) => {
-//   const id = Number(match.params.id);
-//   const cardToShow = machines.find((item) => item.id === id);
-//   return (
-//     <div>
-//       <h2>ProductCard:</h2>
-//       <h3>Label: {cardToShow.label}</h3>
-//       <h3>Description: {cardToShow.description}</h3>
-//       <h3>ID: {cardToShow.id}</h3>
-//     </div>
-//   );
-// };
-
 export default Card;
