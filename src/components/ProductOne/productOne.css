@@ -1,0 +1,32 @@
+.line-through{
+    cursor: default;
+    text-decoration: line-through;
+}
+
+
+.line{
+    cursor:pointer;
+}
+i{margin: 5px;
+    width: 10px;
+    
+}
+.edit_delete{
+    cursor: pointer;
+    
+}
+span {
+    display: inline-table;
+    width: 14%;}
+
+    ul {
+        list-style-type: none;
+    }
+
+
+    ul.table_content {
+        width: 872px;
+       padding-left: 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;}

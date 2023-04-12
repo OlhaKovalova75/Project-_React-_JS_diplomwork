@@ -1,0 +1,76 @@
+.modal-dialog {
+    margin: auto;
+    width: 429px;
+    height: 146px; background: rgb(108, 236, 140);
+   
+}
+
+p , button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+   
+}
+
+/* .modal_show{
+    background: rgb(108, 236, 140);
+    width: 400px;
+    margin: auto;
+} */
+
+.modal_show{
+    width: 430px;
+    height: 145px;
+     background-color: #FFFFFF;
+     border: gray 1px solid;
+    position: fixed;
+    top: 200px;
+    left: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.modal_show.active{
+    opacity: 1;
+    pointer-events: all;
+   
+}
+
+button{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+p{
+    color: #05BC52;
+}
+.modal-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    /* align-items: center; */
+    padding: 10px 30px;
+    gap: 24px;
+}
+button {
+    width: 116px;
+    height: 33px;
+    color: white;
+    border: none;
+}
+.delete{
+    background: red;
+   
+}

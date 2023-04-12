@@ -1,0 +1,27 @@
+.preview-container{
+    width: 1440px;
+    position: relative;
+    text-align: left;
+    background: #44B26F}
+
+    .logo_preview{
+        margin: 0;
+        margin-left: 30px;
+        margin-top: 20px;
+        margin-bottom: 54px;
+        text-align: left;
+    }
+    .logo.preview-container{
+        padding-top: 20px;
+    }
+
+    .logo {
+        padding-top: 20px;}
+
+        /* .card-preview {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 122px;
+            margin-left: 123px;
+            margin-right: 168px;} */

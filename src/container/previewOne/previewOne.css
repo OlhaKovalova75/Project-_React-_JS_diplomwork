@@ -1,0 +1,151 @@
+.container_description {
+    width: 1440px;
+    background: #198519;
+}
+
+/* 
+.preview_one-container{
+    width: 1440px;
+height: 1024px;
+
+background: #0de030;
+}  */
+
+.preview_one_main {
+    padding-left: 61px;
+    padding-top: 30px;
+}
+
+/* .preview_one-block{
+    height: 948px;
+left: 0px;
+top: 76px;
+background: #FFFFFF;
+} */
+.preview_one_block {
+    background: white;
+    width: 1440px;
+height: 948px;
+left: 0px;
+top: 76px;
+}
+.arrow{
+    width: 67px;
+    height: 34px;
+    cursor: pointer;
+}
+
+h2{
+    width: 824px;
+height: 42px;
+left: calc(50% - 824px/2 - 233px);
+top: calc(50% - 42px/2 - 385px);
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 39px;
+text-align: center;
+
+color: #000000;
+}
+.logo_preview_one{
+    /* margin: 0;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 17px; */
+    text-align: left;
+    padding-top: 20px;}
+
+.logo{
+    margin-top: 0;
+}
+    .data h4{
+        font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    width: 247px;
+    height: 44px;
+    text-align: left;}
+
+ .data  h5{
+    font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+text-align: left;}
+
+.price{
+    width: 133px;
+height: 44px;
+left: 540px;
+top: 244px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+/* text-align: center; */
+
+color: #FC5B00;
+}
+.description{
+    width: 100%;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+text-align: left;
+color: #000000;
+}
+
+.preview_one_title {
+    display: flex;
+    width: 824px;
+    
+}
+.preview_one_title h2{
+    margin: 0;
+}
+.preview_one_data {
+    display: flex;
+    gap: 45px;
+    margin-top: 33px;
+}
+
+.preview_one_data img{
+    width: 398px;
+}
+.patch_block{
+    display: flex;}
+
+
+.patch_block img{
+    width: 30px;
+}
+.data {
+    gap:26px
+}
+.description-block {
+    margin-top: 71px;
+}
+
+
+/* .preview-container{
+
+
+
+    background: rgb(34, 236, 102);
+    width: 1440px;
+    height: 300px;
+}
+
+ul{
+    text-align: left;
+    margin: auto;
+    padding: 40px;
+} */

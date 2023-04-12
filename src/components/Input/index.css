@@ -1,0 +1,34 @@
+.input-field{
+    margin: auto;
+    display: block;
+   
+}
+
+::placeholder{width: 75px;
+    height: 17px;
+    left: 602px;
+    top: 397px;
+    margin-left: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    
+    color: #44B26F;
+    }
+
+    
+    p {
+        position: relative;
+        display: inline-block;
+      }
+      
+      i.eye {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+      }
